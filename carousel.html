@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel</title>
+    <link rel="stylesheet" href="carousel.css">
+</head>
+<body>
+    <div class="carousel">
+        <div class="carousel-images">
+            <img src="img1.jpeg" alt="Image 1" class="active">
+            <img src="img2.jpeg" alt="Image 2">
+            <img src="img3.jpeg" alt="Image 3">
+            <img src="img4.jpeg" alt="Image 4">
+        </div>
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        <div class="image-indicators" id="imageIndicators">
+            <span class="indicator active"></span>
+            <span class="indicator"></span>
+            <span class="indicator"></span>
+        </div>
+        <div class="image-counter" id="imageCounter"></div>
+    </div>
+
+    <script src="carousel.js"></script>
+</body>
+</html>
