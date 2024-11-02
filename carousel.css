@@ -67,7 +67,7 @@ button {
 }
 
 .indicator.active {
-    background-color: #4caf50; /* Change to your desired active indicator color */
+    background-color: #4caf50; 
 }
 
 .image-counter {
